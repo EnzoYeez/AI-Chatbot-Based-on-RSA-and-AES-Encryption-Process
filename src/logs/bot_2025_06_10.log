@@ -1,0 +1,44 @@
+[2025-06-10 18:11:41,069.069] DEBUG    [ThreadPoolExecutor-0_0|MainProcess] urllib3.connectionpool (connectionpool.py:_new_conn:1022) | Starting new HTTPS connection (1): ghfast.top:443
+[2025-06-10 18:11:41,071.071] DEBUG    [ThreadPoolExecutor-0_5|MainProcess] urllib3.connectionpool (connectionpool.py:_new_conn:1022) | Starting new HTTPS connection (1): proxy.yaoyaoling.net:443
+[2025-06-10 18:11:41,072.072] DEBUG    [ThreadPoolExecutor-0_1|MainProcess] urllib3.connectionpool (connectionpool.py:_new_conn:1022) | Starting new HTTPS connection (1): github.7boe.top:443
+[2025-06-10 18:11:41,073.073] DEBUG    [ThreadPoolExecutor-0_3|MainProcess] urllib3.connectionpool (connectionpool.py:_new_conn:1022) | Starting new HTTPS connection (1): gh-proxy.ygxz.in:443
+[2025-06-10 18:11:41,073.073] DEBUG    [ThreadPoolExecutor-0_4|MainProcess] urllib3.connectionpool (connectionpool.py:_new_conn:1022) | Starting new HTTPS connection (1): github.whrstudio.top:443
+[2025-06-10 18:11:41,074.074] DEBUG    [ThreadPoolExecutor-0_2|MainProcess] urllib3.connectionpool (connectionpool.py:_new_conn:1022) | Starting new HTTPS connection (1): cdn.moran233.xyz:443
+[2025-06-10 18:11:41,074.074] DEBUG    [ThreadPoolExecutor-0_7|MainProcess] urllib3.connectionpool (connectionpool.py:_new_conn:1022) | Starting new HTTPS connection (1): fastgit.cc:443
+[2025-06-10 18:11:41,074.074] DEBUG    [ThreadPoolExecutor-0_6|MainProcess] urllib3.connectionpool (connectionpool.py:_new_conn:1022) | Starting new HTTPS connection (1): ghproxy.net:443
+[2025-06-10 18:11:41,074.074] DEBUG    [ThreadPoolExecutor-0_8|MainProcess] urllib3.connectionpool (connectionpool.py:_new_conn:1022) | Starting new HTTPS connection (1): git.886.be:443
+[2025-06-10 18:11:41,074.074] DEBUG    [ThreadPoolExecutor-0_9|MainProcess] urllib3.connectionpool (connectionpool.py:_new_conn:1022) | Starting new HTTPS connection (1): gh-proxy.com:443
+[2025-06-10 18:11:41,291.291] DEBUG    [ThreadPoolExecutor-0_2|MainProcess] urllib3.connectionpool (connectionpool.py:_make_request:475) | https://cdn.moran233.xyz:443 "GET / HTTP/1.1" 404 19
+[2025-06-10 18:11:41,382.382] DEBUG    [ThreadPoolExecutor-0_9|MainProcess] urllib3.connectionpool (connectionpool.py:_make_request:475) | https://gh-proxy.com:443 "GET / HTTP/1.1" 200 None
+[2025-06-10 18:11:41,524.524] DEBUG    [ThreadPoolExecutor-0_7|MainProcess] urllib3.connectionpool (connectionpool.py:_make_request:475) | https://fastgit.cc:443 "GET / HTTP/1.1" 200 None
+[2025-06-10 18:11:41,768.768] DEBUG    [ThreadPoolExecutor-0_4|MainProcess] urllib3.connectionpool (connectionpool.py:_make_request:475) | https://github.whrstudio.top:443 "GET / HTTP/1.1" 200 11155
+[2025-06-10 18:11:41,787.787] DEBUG    [ThreadPoolExecutor-0_8|MainProcess] urllib3.connectionpool (connectionpool.py:_make_request:475) | https://git.886.be:443 "GET / HTTP/1.1" 200 None
+[2025-06-10 18:11:42,034.034] DEBUG    [ThreadPoolExecutor-0_6|MainProcess] urllib3.connectionpool (connectionpool.py:_make_request:475) | https://ghproxy.net:443 "GET / HTTP/1.1" 200 None
+[2025-06-10 18:11:42,265.265] DEBUG    [ThreadPoolExecutor-0_0|MainProcess] urllib3.connectionpool (connectionpool.py:_make_request:475) | https://ghfast.top:443 "GET / HTTP/1.1" 200 None
+[2025-06-10 18:11:42,455.455] INFO     [MainThread|MainProcess] Logger (config.py:validate_config:174) | [BOTQQ]: 2401262719 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]:  | [ROOT]: 2490162471 | [WEBUI]: http://localhost:6099
+[2025-06-10 18:11:42,466.466] INFO     [MainThread|MainProcess] Logger (config.py:validate_config:186) | 未启用插件白名单或黑名单，将加载所有插件
+[2025-06-10 18:11:42,466.466] DEBUG    [MainThread|MainProcess] AccessController (access_controller.py:_load_access:172) | 加载权限
+[2025-06-10 18:11:42,466.466] WARNING  [MainThread|MainProcess] AccessController (access_controller.py:_load_access:178) | 权限文件不存在, 将创建新的权限文件
+[2025-06-10 18:11:42,467.467] WARNING  [MainThread|MainProcess] AccessController (access_controller.py:_load_access:183) | 权限文件不存在, 将创建新的权限文件
+[2025-06-10 18:11:42,467.467] DEBUG    [MainThread|MainProcess] asyncio (proactor_events.py:__init__:634) | Using proactor: IocpProactor
+[2025-06-10 18:11:42,718.718] DEBUG    [ThreadPoolExecutor-0_5|MainProcess] urllib3.connectionpool (connectionpool.py:_make_request:475) | https://proxy.yaoyaoling.net:443 "GET / HTTP/1.1" 200 None
+[2025-06-10 18:11:46,565.565] INFO     [MainThread|MainProcess] adapter.nc.launcher (launcher.py:ncatbot_service_remote_start:82) | NapCat 服务器离线, 启动本地 NapCat 服务中...
+[2025-06-10 18:11:46,714.714] INFO     [MainThread|MainProcess] adapter.nc.install (install.py:install_napcat_windows:68) | 未找到 napcat ，是否要自动安装？
+[2025-06-10 18:11:51,463.463] DEBUG    [MainThread|MainProcess] urllib3.connectionpool (connectionpool.py:_new_conn:1022) | Starting new HTTPS connection (1): gh-proxy.com:443
+[2025-06-10 18:11:51,962.962] DEBUG    [MainThread|MainProcess] urllib3.connectionpool (connectionpool.py:_make_request:475) | https://gh-proxy.com:443 "GET /https://raw.githubusercontent.com/NapNeko/NapCatQQ/main/package.json HTTP/1.1" 200 834
+[2025-06-10 18:11:51,962.962] DEBUG    [MainThread|MainProcess] adapter.nc.install (install.py:get_napcat_version:47) | 获取最新版本信息成功, 版本号: 4.7.77
+[2025-06-10 18:11:51,962.962] INFO     [MainThread|MainProcess] adapter.nc.install (install.py:install_napcat_windows:83) | 下载链接为 https://gh-proxy.com/https://github.com/NapNeko/NapCatQQ/releases/download/v4.7.77/NapCat.Shell.zip...
+[2025-06-10 18:11:51,962.962] INFO     [MainThread|MainProcess] adapter.nc.install (install.py:install_napcat_windows:84) | 正在下载 napcat 客户端, 请稍等...
+[2025-06-10 18:11:51,963.963] DEBUG    [MainThread|MainProcess] urllib3.connectionpool (connectionpool.py:_new_conn:1022) | Starting new HTTPS connection (1): gh-proxy.com:443
+[2025-06-10 18:11:53,042.042] DEBUG    [MainThread|MainProcess] urllib3.connectionpool (connectionpool.py:_make_request:475) | https://gh-proxy.com:443 "GET /https://github.com/NapNeko/NapCatQQ/releases/download/v4.7.77/NapCat.Shell.zip HTTP/1.1" 200 20208705
+[2025-06-10 18:12:00,345.345] INFO     [MainThread|MainProcess] Logger (file_io.py:unzip_file:22) | 解压 napcat.zip 成功
+[2025-06-10 18:12:00,357.357] WARNING  [MainThread|MainProcess] adapter.nc.start (start.py:read_webui_config:223) | 无法读取 WebUI 配置, 将使用默认配置
+[2025-06-10 18:12:00,357.357] INFO     [MainThread|MainProcess] adapter.nc.start (start.py:get_launcher_name:99) | 当前操作系统为: Windows 11
+[2025-06-10 18:12:00,357.357] INFO     [MainThread|MainProcess] adapter.nc.start (start.py:start_napcat_windows:112) | 正在启动QQ, 启动器路径: D:\学习资料\大二下\计算机安全\小组作业\精简\napcat\launcher.bat
+[2025-06-10 18:12:00,367.367] INFO     [MainThread|MainProcess] adapter.nc.login (login.py:login:248) | 即将弹出权限请求, 请允许
+[2025-06-10 18:12:00,387.387] DEBUG    [MainThread|MainProcess] urllib3.connectionpool (connectionpool.py:_new_conn:246) | Starting new HTTP connection (1): localhost:6099
+[2025-06-10 18:12:04,506.506] DEBUG    [MainThread|MainProcess] urllib3.connectionpool (connectionpool.py:_new_conn:246) | Starting new HTTP connection (1): localhost:6099
+[2025-06-10 18:12:08,631.631] DEBUG    [MainThread|MainProcess] urllib3.connectionpool (connectionpool.py:_new_conn:246) | Starting new HTTP connection (1): localhost:6099
+[2025-06-10 18:12:12,749.749] DEBUG    [MainThread|MainProcess] urllib3.connectionpool (connectionpool.py:_new_conn:246) | Starting new HTTP connection (1): localhost:6099
+[2025-06-10 18:12:16,837.837] ERROR    [MainThread|MainProcess] adapter.nc.login (login.py:__init__:97) | 授权操作超时
+[2025-06-10 18:12:16,837.837] INFO     [MainThread|MainProcess] adapter.nc.login (login.py:__init__:98) | 请检查 Windows 安全中心, 查看是否有拦截了 NapCat 启动程序的日志
