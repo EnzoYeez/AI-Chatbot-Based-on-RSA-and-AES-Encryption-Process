@@ -34,11 +34,11 @@ The system is implemented as **four cooperating modules**:
 
 ## Screenshots
 
-### 1) RSA public key ↔ AES session key (handshake)
-![Handshake](assets/screenshot-handshake.png)
+### 1) Figuer1
+![Handshake](figures/图片1.png)
 
-### 2) AES‑GCM encryption/decryption in the GUI
-![GUI](assets/screenshot-gui.png)
+### 2) Figure2
+![GUI](figures/图片2.png)
 
 > Keep these images inside `assets/` beside this README so the links render on GitHub.
 
